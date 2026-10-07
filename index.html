@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập nhúng CSS</title>
+
+    <!-- PHẦN 3: External-style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- PHẦN 2: Internal-style -->
+    <style>
+      .internal-style {
+        color: #2196f3; /* Màu xanh dương */
+        font-size: 18px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bài tập nhúng CSS vào trang HTML</h1>
+
+    <!-- PHẦN 1: Inline-style -->
+    <h2>Phần 1: Inline-style</h2>
+    <p style="color: #e91e63; font-size: 18px; font-weight: bold">
+      Đoạn văn này được tô màu bằng <strong>inline-style</strong> (viết trực
+      tiếp trong thẻ HTML).
+    </p>
+
+    <!-- PHẦN 2: Internal-style -->
+    <h2>Phần 2: Internal-style</h2>
+    <p class="internal-style">
+      Đoạn văn này được tô màu bằng <strong>internal-style</strong> (viết trong
+      thẻ &lt;style&gt; ở phần &lt;head&gt;).
+    </p>
+
+    <!-- PHẦN 3: External-style -->
+    <h2>Phần 3: External-style</h2>
+    <p class="external-style">
+      Đoạn văn này được tô màu bằng <strong>external-style</strong> (viết trong
+      file CSS riêng biệt).
+    </p>
+  </body>
+</html>

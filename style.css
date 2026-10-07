@@ -1,0 +1,28 @@
+/* PHẦN 3: External-style */
+.external-style {
+  color: #4caf50; /* Màu xanh lá */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style chung cho trang */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #555;
+  margin-top: 30px;
+}
